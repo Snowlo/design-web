@@ -1,0 +1,311 @@
+body{
+    color:#40514e;
+    margin:0px;
+    text-align: center;
+    font-family:'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 100px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #45b29a;
+    font-weight:400;
+}
+h2,h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #45b29a;
+    font-weight: 500;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #45b29a;
+    font-weight: 600;
+    padding-top: 30px;
+}
+hr {
+    border: dotted #d0e9fa 6px;
+    border-bottom: none;
+    width: 10%;
+}
+
+.nav-bar label, input {
+ display: none;
+
+}
+
+.pro {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.mountain {
+    width: 800px;
+    height:300px;
+}
+
+.bamboo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 81%;
+    right:35%;
+}
+.bamboo_2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 81%;
+    left: 35%;
+}
+
+.top-container {
+    background-color: #e3fdfd;
+    position: relative;
+    /* width: 200px;
+    height: 200px;
+    border:10px solid black;
+    padding: 20px; */
+}
+
+.middle-container {
+    width: 800px;
+    line-height: 2;
+    margin:0px auto;
+}
+.profile {
+    margin-top: 50px;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+.container-one {
+    margin: 50px auto;
+}
+.container-one p {
+    text-align: left;
+    width: 460px;
+    margin:0 auto 30px auto;
+}
+.container-one h1,.container-two h1,.container-four h1 {
+    margin-top: 30px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+    font-weight: bold;
+
+}
+.container-two h2{ 
+    text-align: left;
+    margin-bottom: 0;
+  }
+.container-two p {
+    margin-top: 0;
+    text-align: left;
+    /* clear: left; */
+}
+.container-two img,.container-three img, .container-four img {
+      width: 20%;
+  }
+.container-two img, .container-three img {
+    margin-top: 30px;
+}
+.container-two img {
+      float: left;
+      margin-right: 30px;
+  }
+.container-three{
+    margin: 200px auto 100px;
+}
+.container-three img {
+    float: right;
+}
+.container-three h2 {
+    margin-bottom: 0px;
+}
+.container-three p {
+    margin: 0 auto 0 20px;
+    text-align: left;
+}
+.container-four h2 {
+    margin-top: 0;
+}
+.container-four p {
+    text-align: left;
+    width: 60%;
+    margin: 0 auto 50px;
+
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.bottom-container {
+ background-color:#c5ded7;
+ margin-top: 50px;
+ padding: 30px 0 10px;
+}
+.bottom-list {
+    padding-left: 15px;
+}
+.bottom-list li {
+    display: inline-block;
+    padding: 0 30px;
+}
+.bottom-list a {
+    text-decoration: none;
+    color:#45b29a;
+}
+.bottom-list a:hover {
+    color: black;
+}
+.bottom-container p {
+    color:#45b29a;
+}
+
+.nav-bar {
+    background-color: #c5ded7;
+    margin: 0px;
+    padding: 20px 0 100px 0;
+}
+.nav-bar img {
+    position: absolute;
+    width:75px;
+    left: 200px;
+}
+.nav-list {
+    position: absolute;
+    right: 100px;
+    margin-top: 30px;
+}
+.nav-list li{
+ display: inline-block;
+ margin:0 10px;
+}
+.nav-list a {
+    text-decoration: none;
+    color:#45b29a;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.nav-list a:hover {
+    color: black;
+}
+
+/* Media query section */
+@media screen and (max-width:768px){
+    .nav-bar label {
+        position: absolute;
+        display: inline-block;
+        color:black;
+        font-size: 1.8rem;
+        right:5px;
+        top:5px;
+    }
+   .nav-bar img {
+        position: absolute;
+        left: 40%;
+        width: 100px;
+        top: 3px;
+    }
+
+    .nav-list {
+       top:80px;
+       padding-left: 205px;
+       background-color: #c5ded7;
+       width: 100%;
+       right: 0;
+       padding-bottom:20px;
+    }
+    .nav-list a:hover{
+        border-bottom: 2px solid black;
+    }
+    .nav-list {
+        display: none;
+    }
+    .nav-bar input:checked ~ .nav-list {
+        display: inline-block;
+    }
+    .subtop-container {
+        width: 80%;
+        margin-left:80px ;
+    }
+    .subtop-container h1, h2 {
+        font-size: 2.5rem;
+    }
+    .subtop-container .bamboo,.bamboo_2{
+        top:530px;
+        right:215px;
+    }
+    .mountain {
+        width:100%;
+        
+    }
+    .container-two img, .container-three img {
+        float: none;
+        width: 120px;
+        margin-right: 0;
+    }
+    .container-two h2 {
+        margin-left: 280px;
+    }
+    .container-two p, .container-three p {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .container-three {
+        margin-top: 50px;
+    }
+
+  @media screen and (max-width:700px){
+      .middle-container {
+          width: 100%;
+          text-align: center;
+      }
+      .mountain{
+          width: 100%;
+          height: 100%;
+      }
+      .subtop-container .bamboo{
+        top:76%;
+        width: 50px;
+        right: 100px;
+      }
+      .bamboo_2{
+        top:76%;
+        width: 50px;
+      }
+      .container-one p {
+          width: 68%;
+          padding-left: 50px;
+      }
+      .container-two h2  {
+          margin-left: 130px;
+      }
+
+  }
+}
